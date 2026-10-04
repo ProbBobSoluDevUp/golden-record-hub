@@ -1,1 +1,1 @@
-Next: Sprint 1. Add stronger validation to validate-model.js.
+Next: Sprint 1. Add validation for required fields and duplicate IDs.
