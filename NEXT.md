@@ -1,1 +1,1 @@
-Next: Sprint 1. Write data-model.json.
+Next: Sprint 1. Add stronger validation to validate-model.js.

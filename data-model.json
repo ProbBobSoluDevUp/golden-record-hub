@@ -1,0 +1,50 @@
+{
+  "modelName": "Golden Record Hub",
+  "version": "1.0",
+  "objectTypes": [
+    {
+      "id": "product",
+      "name": "Product",
+      "attributes": [
+        {
+          "id": "sku",
+          "name": "SKU",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "productName",
+          "name": "Product Name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "brand",
+          "name": "Brand",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "category",
+          "name": "Category",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "status",
+          "name": "Product Status",
+          "type": "lov",
+          "required": true,
+          "listOfValuesId": "productStatus"
+        }
+      ]
+    }
+  ],
+  "listsOfValues": [
+    {
+      "id": "productStatus",
+      "name": "Product Status",
+      "values": ["ACTIVE", "INACTIVE", "DISCONTINUED"]
+    }
+  ]
+}
