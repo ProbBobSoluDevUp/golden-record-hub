@@ -1,1 +1,1 @@
-Next: Sprint 1. Add validation for required fields and duplicate IDs.
+Next: Sprint 1. Test duplicate IDs, then continue to the next data-model component.
