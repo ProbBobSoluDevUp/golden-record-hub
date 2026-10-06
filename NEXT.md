@@ -1,1 +1,1 @@
-Next: Sprint 1. Test duplicate IDs, then continue to the next data-model component.
+Next: Sprint 1. Begin the next Golden Record Hub component after the completed data-model validation milestone.
