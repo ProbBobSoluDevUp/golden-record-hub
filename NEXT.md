@@ -1,1 +1,1 @@
-Next: Sprint 1. Begin the next Golden Record Hub component after the completed data-model validation milestone.
+Next: Sprint 1. Create sample-data/items.json and define the fake item record shape.

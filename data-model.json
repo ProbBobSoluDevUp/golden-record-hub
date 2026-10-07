@@ -36,6 +36,13 @@
           "type": "lov",
           "required": true,
           "listOfValuesId": "productStatus"
+        },
+        {
+          "id": "availabilityStatus",
+          "name": "Availability Status",
+          "type": "lov",
+          "required": true,
+          "listOfValuesId": "availabilityStatus"
         }
       ]
     }
@@ -45,6 +52,11 @@
       "id": "productStatus",
       "name": "Product Status",
       "values": ["ACTIVE", "INACTIVE", "DISCONTINUED"]
+    },
+    {
+      "id": "availabilityStatus",
+      "name": "Availability Status",
+      "values": ["IN_STOCK", "ON_ORDER", "NEEDS_ORDER", "DISCONTINUED"]
     }
   ]
 }
