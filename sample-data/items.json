@@ -1,0 +1,10 @@
+[
+    {
+  "sku": "1234567",
+  "productName": "Example Product",
+  "brand": "Example Brand",
+  "category": "Example Category",
+  "status": "ACTIVE",
+  "availabilityStatus": "IN_STOCK"
+}
+]

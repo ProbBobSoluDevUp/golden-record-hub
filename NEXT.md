@@ -1,1 +1,1 @@
-Next: Sprint 1. Create sample-data/items.json and define the fake item record shape.
+Next: Sprint 1. Add quantityOnHand and quantityOnOrder, then derive Availability Status with a business rule.
