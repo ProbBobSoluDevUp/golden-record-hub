@@ -1,1 +1,1 @@
-Next: Sprint 1. Add quantityOnHand and quantityOnOrder, then derive Availability Status with a business rule.
+Next: Sprint 1. Convert availability testing to PASS/FAIL, then expand sample data toward 50 items and add data-quality rules.

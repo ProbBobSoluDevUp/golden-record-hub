@@ -1,10 +1,42 @@
 [
-    {
-  "sku": "1234567",
-  "productName": "Example Product",
-  "brand": "Example Brand",
-  "category": "Example Category",
-  "status": "ACTIVE",
-  "availabilityStatus": "IN_STOCK"
-}
+  {
+    "sku": "1234567",
+    "productName": "In Stock Product",
+    "brand": "Example Brand",
+    "category": "Example Category",
+    "quantityOnHand": 14,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "2345678",
+    "productName": "On Order Product",
+    "brand": "Example Brand",
+    "category": "Example Category",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 12,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "3456789",
+    "productName": "Needs Order Product",
+    "brand": "Example Brand",
+    "category": "Example Category",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "NEEDS_ORDER"
+  },
+  {
+    "sku": "4567890",
+    "productName": "Discontinued Product",
+    "brand": "Example Brand",
+    "category": "Example Category",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "DISCONTINUED",
+    "availabilityStatus": "DISCONTINUED"
+  }
 ]

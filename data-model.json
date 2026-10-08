@@ -31,6 +31,18 @@
           "required": false
         },
         {
+          "id": "quantityOnHand",
+          "name": "Quantity On Hand",
+          "type": "integer",
+          "required": true
+        },
+        {
+          "id": "quantityOnOrder",
+          "name": "Quantity On Order",
+          "type": "integer",
+          "required": true
+        },
+        {
           "id": "status",
           "name": "Product Status",
           "type": "lov",
