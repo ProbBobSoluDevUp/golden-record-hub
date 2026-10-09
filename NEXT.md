@@ -1,1 +1,1 @@
-Next: Sprint 1. Expand sample data toward 50 synthetic items with deliberate data-quality errors.
+Next: Sprint 1. Build data-quality rules that identify the 12 deliberately bad sample records.

@@ -1,42 +1,500 @@
 [
   {
-    "sku": "1234567",
-    "productName": "In Stock Product",
-    "brand": "Example Brand",
-    "category": "Example Category",
+    "sku": "1000001",
+    "productName": "Sample Product 1",
+    "brand": "NORTHSTAR",
+    "category": "DAIRY",
+    "quantityOnHand": 1,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000002",
+    "productName": "Sample Product 2",
+    "brand": "PRAIRIE FOODS",
+    "category": "PRODUCE",
+    "quantityOnHand": 2,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000003",
+    "productName": "Sample Product 3",
+    "brand": "SUMMIT",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 3,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000004",
+    "productName": "Sample Product 4",
+    "brand": "RIVERBEND",
+    "category": "FROZEN",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 5,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000005",
+    "productName": "Sample Product 5",
+    "brand": "GOLDEN VALLEY",
+    "category": "CONDIMENTS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000006",
+    "productName": "Sample Product 6",
+    "brand": "NORTHSTAR",
+    "category": "DAIRY",
+    "quantityOnHand": 6,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000007",
+    "productName": "Sample Product 7",
+    "brand": "PRAIRIE FOODS",
+    "category": "PRODUCE",
+    "quantityOnHand": 7,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000008",
+    "productName": "Sample Product 8",
+    "brand": "SUMMIT",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 9,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000009",
+    "productName": "Sample Product 9",
+    "brand": "RIVERBEND",
+    "category": "FROZEN",
+    "quantityOnHand": 9,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000010",
+    "productName": "Sample Product 10",
+    "brand": "GOLDEN VALLEY",
+    "category": "CONDIMENTS",
+    "quantityOnHand": 10,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000011",
+    "productName": "Sample Product 11",
+    "brand": "NORTHSTAR",
+    "category": "DAIRY",
+    "quantityOnHand": 11,
+    "quantityOnOrder": 0,
+    "status": "DISCONTINUED",
+    "availabilityStatus": "DISCONTINUED"
+  },
+  {
+    "sku": "1000012",
+    "productName": "Sample Product 12",
+    "brand": "PRAIRIE FOODS",
+    "category": "PRODUCE",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 3,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000013",
+    "productName": "Sample Product 13",
+    "brand": "SUMMIT",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 13,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000014",
+    "productName": "Sample Product 14",
+    "brand": "RIVERBEND",
+    "category": "FROZEN",
     "quantityOnHand": 14,
     "quantityOnOrder": 0,
     "status": "ACTIVE",
     "availabilityStatus": "IN_STOCK"
   },
   {
-    "sku": "2345678",
-    "productName": "On Order Product",
-    "brand": "Example Brand",
-    "category": "Example Category",
-    "quantityOnHand": 0,
-    "quantityOnOrder": 12,
-    "status": "ACTIVE",
-    "availabilityStatus": "ON_ORDER"
-  },
-  {
-    "sku": "3456789",
-    "productName": "Needs Order Product",
-    "brand": "Example Brand",
-    "category": "Example Category",
+    "sku": "1000015",
+    "productName": "Sample Product 15",
+    "brand": "GOLDEN VALLEY",
+    "category": "CONDIMENTS",
     "quantityOnHand": 0,
     "quantityOnOrder": 0,
     "status": "ACTIVE",
     "availabilityStatus": "NEEDS_ORDER"
   },
   {
-    "sku": "4567890",
-    "productName": "Discontinued Product",
-    "brand": "Example Brand",
-    "category": "Example Category",
-    "quantityOnHand": 5,
+    "sku": "1000016",
+    "productName": "Sample Product 16",
+    "brand": "NORTHSTAR",
+    "category": "DAIRY",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 7,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000017",
+    "productName": "Sample Product 17",
+    "brand": "PRAIRIE FOODS",
+    "category": "PRODUCE",
+    "quantityOnHand": 2,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000018",
+    "productName": "Sample Product 18",
+    "brand": "SUMMIT",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 3,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000019",
+    "productName": "Sample Product 19",
+    "brand": "RIVERBEND",
+    "category": "FROZEN",
+    "quantityOnHand": 4,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000020",
+    "productName": "Sample Product 20",
+    "brand": "GOLDEN VALLEY",
+    "category": "CONDIMENTS",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 1,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000021",
+    "productName": "Sample Product 21",
+    "brand": "NORTHSTAR",
+    "category": "DAIRY",
+    "quantityOnHand": 6,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000022",
+    "productName": "Sample Product 22",
+    "brand": "PRAIRIE FOODS",
+    "category": "PRODUCE",
+    "quantityOnHand": 7,
     "quantityOnOrder": 0,
     "status": "DISCONTINUED",
     "availabilityStatus": "DISCONTINUED"
+  },
+  {
+    "sku": "1000023",
+    "productName": "Sample Product 23",
+    "brand": "SUMMIT",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 8,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000024",
+    "productName": "Sample Product 24",
+    "brand": "RIVERBEND",
+    "category": "FROZEN",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 5,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000025",
+    "productName": "Sample Product 25",
+    "brand": "GOLDEN VALLEY",
+    "category": "CONDIMENTS",
+    "quantityOnHand": 10,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000026",
+    "productName": "Sample Product 26",
+    "brand": "NORTHSTAR",
+    "category": "DAIRY",
+    "quantityOnHand": 11,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000027",
+    "productName": "Sample Product 27",
+    "brand": "PRAIRIE FOODS",
+    "category": "PRODUCE",
+    "quantityOnHand": 12,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000028",
+    "productName": "Sample Product 28",
+    "brand": "SUMMIT",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 9,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000029",
+    "productName": "Sample Product 29",
+    "brand": "RIVERBEND",
+    "category": "FROZEN",
+    "quantityOnHand": 14,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000030",
+    "productName": "Sample Product 30",
+    "brand": "GOLDEN VALLEY",
+    "category": "CONDIMENTS",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "NEEDS_ORDER"
+  },
+  {
+    "sku": "1000031",
+    "productName": "Sample Product 31",
+    "brand": "NORTHSTAR",
+    "category": "DAIRY",
+    "quantityOnHand": 1,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000032",
+    "productName": "Sample Product 32",
+    "brand": "PRAIRIE FOODS",
+    "category": "PRODUCE",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 3,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000033",
+    "productName": "Sample Product 33",
+    "brand": "SUMMIT",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 3,
+    "quantityOnOrder": 0,
+    "status": "DISCONTINUED",
+    "availabilityStatus": "DISCONTINUED"
+  },
+  {
+    "sku": "1000034",
+    "productName": "Sample Product 34",
+    "brand": "RIVERBEND",
+    "category": "FROZEN",
+    "quantityOnHand": 4,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000035",
+    "productName": "Sample Product 35",
+    "brand": "GOLDEN VALLEY",
+    "category": "CONDIMENTS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000036",
+    "productName": "Sample Product 36",
+    "brand": "NORTHSTAR",
+    "category": "DAIRY",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 7,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000037",
+    "productName": "Sample Product 37",
+    "brand": "PRAIRIE FOODS",
+    "category": "PRODUCE",
+    "quantityOnHand": 7,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000038",
+    "productName": "Sample Product 38",
+    "brand": "SUMMIT",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 8,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "ABC0039",
+    "productName": "Sample Product 39",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000001",
+    "productName": "Sample Product 40",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000041",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000042",
+    "productName": "Sample Product 42",
+    "brand": "northstar",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000043",
+    "productName": "  Tomato Sauce  ",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000044",
+    "productName": "Sample Product 44",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "RETIRED",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000045",
+    "productName": "Sample Product 45",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": -3,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "NEEDS_ORDER"
+  },
+  {
+    "sku": "1000046",
+    "productName": "Sample Product 46",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 0,
+    "quantityOnOrder": -6,
+    "status": "ACTIVE",
+    "availabilityStatus": "NEEDS_ORDER"
+  },
+  {
+    "sku": "1000047",
+    "productName": "Sample Product 47",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "ON_ORDER"
+  },
+  {
+    "sku": "1000048",
+    "productName": "Sample Product 48",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000049",
+    "productName": "Sample Product 49",
+    "brand": "NORTHSTAR",
+    "category": "OFFICE_SUPPLIES",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
+  },
+  {
+    "sku": "1000050",
+    "productName": "Ranch Dressing 12 / 1 LB",
+    "brand": "NORTHSTAR",
+    "category": "DRY_GOODS",
+    "quantityOnHand": 5,
+    "quantityOnOrder": 0,
+    "status": "ACTIVE",
+    "availabilityStatus": "IN_STOCK"
   }
 ]
