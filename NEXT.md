@@ -1,1 +1,1 @@
-Next: Sprint 1. Convert availability testing to PASS/FAIL, then expand sample data toward 50 items and add data-quality rules.
+Next: Sprint 1. Expand sample data toward 50 synthetic items with deliberate data-quality errors.
