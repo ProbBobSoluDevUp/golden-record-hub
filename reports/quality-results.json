@@ -1,0 +1,453 @@
+{
+  "generatedAt": "2026-10-24T12:34:34.186Z",
+  "summary": {
+    "checked": 50,
+    "rules": 8,
+    "pass": 38,
+    "fail": 12,
+    "autoFixable": 4,
+    "needsReview": 8,
+    "failuresByRule": {
+      "REQUIRED_FIELDS": 2,
+      "SKU_FORMAT": 1,
+      "DUPLICATE_SKU": 1,
+      "ALLOWED_VALUES": 3,
+      "NO_EXTRA_SPACES": 1,
+      "PACK_SIZE_FORMAT": 1,
+      "QUANTITY_VALID": 2,
+      "AVAILABILITY_MATCHES": 1
+    }
+  },
+  "results": [
+    {
+      "record": 1,
+      "sku": "1000001",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 2,
+      "sku": "1000002",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 3,
+      "sku": "1000003",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 4,
+      "sku": "1000004",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 5,
+      "sku": "1000005",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 6,
+      "sku": "1000006",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 7,
+      "sku": "1000007",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 8,
+      "sku": "1000008",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 9,
+      "sku": "1000009",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 10,
+      "sku": "1000010",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 11,
+      "sku": "1000011",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 12,
+      "sku": "1000012",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 13,
+      "sku": "1000013",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 14,
+      "sku": "1000014",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 15,
+      "sku": "1000015",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 16,
+      "sku": "1000016",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 17,
+      "sku": "1000017",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 18,
+      "sku": "1000018",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 19,
+      "sku": "1000019",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 20,
+      "sku": "1000020",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 21,
+      "sku": "1000021",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 22,
+      "sku": "1000022",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 23,
+      "sku": "1000023",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 24,
+      "sku": "1000024",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 25,
+      "sku": "1000025",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 26,
+      "sku": "1000026",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 27,
+      "sku": "1000027",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 28,
+      "sku": "1000028",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 29,
+      "sku": "1000029",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 30,
+      "sku": "1000030",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 31,
+      "sku": "1000031",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 32,
+      "sku": "1000032",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 33,
+      "sku": "1000033",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 34,
+      "sku": "1000034",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 35,
+      "sku": "1000035",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 36,
+      "sku": "1000036",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 37,
+      "sku": "1000037",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 38,
+      "sku": "1000038",
+      "result": "PASS",
+      "autoFixable": false,
+      "problems": []
+    },
+    {
+      "record": 39,
+      "sku": "ABC0039",
+      "result": "FAIL",
+      "autoFixable": false,
+      "problems": [
+        {
+          "rule": "SKU_FORMAT",
+          "message": "SKU \"ABC0039\" must be exactly 7 digits",
+          "suggestedFix": null
+        }
+      ]
+    },
+    {
+      "record": 40,
+      "sku": "1000001",
+      "result": "FAIL",
+      "autoFixable": false,
+      "problems": [
+        {
+          "rule": "DUPLICATE_SKU",
+          "message": "SKU 1000001 is already used by record 1",
+          "suggestedFix": null
+        }
+      ]
+    },
+    {
+      "record": 41,
+      "sku": "1000041",
+      "result": "FAIL",
+      "autoFixable": false,
+      "problems": [
+        {
+          "rule": "REQUIRED_FIELDS",
+          "message": "Missing required field(s): productName",
+          "suggestedFix": null
+        }
+      ]
+    },
+    {
+      "record": 42,
+      "sku": "1000042",
+      "result": "FAIL",
+      "autoFixable": true,
+      "problems": [
+        {
+          "rule": "ALLOWED_VALUES",
+          "message": "brand \"northstar\" is not an allowed value",
+          "suggestedFix": {
+            "brand": "NORTHSTAR"
+          }
+        }
+      ]
+    },
+    {
+      "record": 43,
+      "sku": "1000043",
+      "result": "FAIL",
+      "autoFixable": true,
+      "problems": [
+        {
+          "rule": "NO_EXTRA_SPACES",
+          "message": "Extra spaces in: productName",
+          "suggestedFix": {
+            "productName": "Tomato Sauce"
+          }
+        }
+      ]
+    },
+    {
+      "record": 44,
+      "sku": "1000044",
+      "result": "FAIL",
+      "autoFixable": false,
+      "problems": [
+        {
+          "rule": "ALLOWED_VALUES",
+          "message": "status \"RETIRED\" is not an allowed value",
+          "suggestedFix": null
+        }
+      ]
+    },
+    {
+      "record": 45,
+      "sku": "1000045",
+      "result": "FAIL",
+      "autoFixable": false,
+      "problems": [
+        {
+          "rule": "QUANTITY_VALID",
+          "message": "quantityOnHand is -3 (must be a whole number, 0 or more)",
+          "suggestedFix": null
+        }
+      ]
+    },
+    {
+      "record": 46,
+      "sku": "1000046",
+      "result": "FAIL",
+      "autoFixable": false,
+      "problems": [
+        {
+          "rule": "QUANTITY_VALID",
+          "message": "quantityOnOrder is -6 (must be a whole number, 0 or more)",
+          "suggestedFix": null
+        }
+      ]
+    },
+    {
+      "record": 47,
+      "sku": "1000047",
+      "result": "FAIL",
+      "autoFixable": true,
+      "problems": [
+        {
+          "rule": "AVAILABILITY_MATCHES",
+          "message": "availabilityStatus is ON_ORDER, but the quantities say IN_STOCK",
+          "suggestedFix": {
+            "availabilityStatus": "IN_STOCK"
+          }
+        }
+      ]
+    },
+    {
+      "record": 48,
+      "sku": "1000048",
+      "result": "FAIL",
+      "autoFixable": false,
+      "problems": [
+        {
+          "rule": "REQUIRED_FIELDS",
+          "message": "Missing required field(s): quantityOnOrder",
+          "suggestedFix": null
+        }
+      ]
+    },
+    {
+      "record": 49,
+      "sku": "1000049",
+      "result": "FAIL",
+      "autoFixable": false,
+      "problems": [
+        {
+          "rule": "ALLOWED_VALUES",
+          "message": "category \"OFFICE_SUPPLIES\" is not an allowed value",
+          "suggestedFix": null
+        }
+      ]
+    },
+    {
+      "record": 50,
+      "sku": "1000050",
+      "result": "FAIL",
+      "autoFixable": true,
+      "problems": [
+        {
+          "rule": "PACK_SIZE_FORMAT",
+          "message": "Pack size in \"Ranch Dressing 12 / 1 LB\" should have no spaces around the slash",
+          "suggestedFix": {
+            "productName": "Ranch Dressing 12/1 LB"
+          }
+        }
+      ]
+    }
+  ]
+}
