@@ -1,0 +1,9 @@
+{
+    "sku": "1000051",
+    "productName": "Sample Product 51",
+    "brand": "SUMMIT",
+    "category": "FROZEN",
+    "quantityOnHand": 0,
+    "quantityOnOrder": 12,
+    "status": "ACTIVE"
+}

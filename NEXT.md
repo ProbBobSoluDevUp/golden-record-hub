@@ -1,2 +1,2 @@
-Sprint 2 started (Oct 25): Express installed, GET /items and GET /items/:sku working.
-Next: POST /items runs the rules. A bad item gets a 422 with the errors.
+Sprint 2 (Oct 25): POST /items validates with the rules; bad items get a 422.
+Next: GET /dq/summary returns the quality report as JSON.
