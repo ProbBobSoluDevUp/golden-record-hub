@@ -7,7 +7,7 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
-const { rules } = require("./rules/data-quality-rules");
+const { checkItem, buildQualityReport } = require("./quality");
 const { deriveAvailabilityStatus } = require("./rules/availability-status");
 
 const app = express();
@@ -28,27 +28,6 @@ function loadItems() {
 
 function saveItems(items) {
     fs.writeFileSync(itemsPath, JSON.stringify(items, null, 2));
-}
-
-// Run every data-quality rule against one new item.
-// The new item goes at the end of the list, so DUPLICATE_SKU
-// compares it with every item already in the hub.
-function checkNewItem(item, existingItems) {
-    const context = {
-        allItems: [...existingItems, item],
-        index: existingItems.length
-    };
-    const problems = [];
-
-    for (const rule of rules) {
-        const message = rule.check(item, context);
-        if (message) {
-            const suggestedFix = rule.fix ? rule.fix(item) : null;
-            problems.push({ rule: rule.id, message, suggestedFix });
-        }
-    }
-
-    return problems;
 }
 
 // GET /items: every item
@@ -81,8 +60,10 @@ app.post("/items", (req, res) => {
     // availabilityStatus is calculated by the hub, never typed in by the sender.
     const item = { ...body, availabilityStatus: deriveAvailabilityStatus(body) };
 
+    // The new item goes at the end of the list, so DUPLICATE_SKU
+    // compares it with every item already in the hub.
     const items = loadItems();
-    const problems = checkNewItem(item, items);
+    const problems = checkItem(item, [...items, item], items.length);
 
     // 422 Unprocessable Entity: the request is fine, but the item breaks business rules
     if (problems.length > 0) {
@@ -97,6 +78,17 @@ app.post("/items", (req, res) => {
 
     // 201 Created: the item passed and was saved
     res.status(201).json(item);
+});
+
+// GET /dq/summary: live quality report, plus the records that need attention
+app.get("/dq/summary", (req, res) => {
+    const report = buildQualityReport(loadItems());
+
+    res.json({
+        generatedAt: report.generatedAt,
+        summary: report.summary,
+        failedRecords: report.results.filter((r) => r.result === "FAIL")
+    });
 });
 
 // "127.0.0.1" means only this computer can reach the API.
