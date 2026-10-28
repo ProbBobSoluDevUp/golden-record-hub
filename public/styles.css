@@ -1,0 +1,229 @@
+/* Golden Record Hub: page styles */
+
+:root {
+    --bg: #f6f5f1;
+    --surface: #ffffff;
+    --text: #1f1e1b;
+    --muted: #6b6a64;
+    --border: #dddbd2;
+    --focus: #1f6feb;
+    --error: #b42318;
+
+    --in-stock-bg: #e3f2e1;
+    --in-stock-text: #23611c;
+    --on-order-bg: #e2edfb;
+    --on-order-text: #184f8c;
+    --needs-order-bg: #fbefd9;
+    --needs-order-text: #7a4a07;
+    --discontinued-bg: #ecebe6;
+    --discontinued-text: #4d4c47;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #1b1b19;
+        --surface: #252523;
+        --text: #ecebe6;
+        --muted: #a3a29b;
+        --border: #3a3a36;
+        --focus: #6ea8fe;
+        --error: #f97066;
+
+        --in-stock-bg: #1e3a1b;
+        --in-stock-text: #a6dba0;
+        --on-order-bg: #172f4d;
+        --on-order-text: #9cc4f5;
+        --needs-order-bg: #45300b;
+        --needs-order-text: #f5cf8a;
+        --discontinued-bg: #34342f;
+        --discontinued-text: #c9c8c1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+.page {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 16px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.subtitle {
+    color: var(--muted);
+    margin: 4px 0 24px;
+}
+
+.panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.panel-title {
+    font-size: 18px;
+    margin: 0 0 12px;
+}
+
+/* Search form */
+
+label {
+    display: block;
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 6px;
+}
+
+.search-row {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    min-width: 0;
+    font-family: ui-monospace, Consolas, monospace;
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    color: var(--text);
+}
+
+input:focus,
+button:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 1px;
+}
+
+button {
+    font: inherit;
+    font-size: 15px;
+    padding: 10px 16px;
+    border: 1px solid var(--text);
+    border-radius: 8px;
+    background: var(--text);
+    color: var(--surface);
+    cursor: pointer;
+}
+
+.field-error {
+    color: var(--error);
+    font-size: 14px;
+    min-height: 21px;
+    margin: 6px 0 0;
+}
+
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 4px 0 16px;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.chip {
+    font-family: ui-monospace, Consolas, monospace;
+    font-size: 13px;
+    padding: 4px 10px;
+    background: transparent;
+    color: var(--muted);
+    border-color: var(--border);
+}
+
+.chip:hover {
+    color: var(--text);
+    border-color: var(--muted);
+}
+
+/* Result card */
+
+.card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.item-name {
+    font-size: 17px;
+    margin: 0;
+}
+
+.item-meta {
+    font-size: 13px;
+    color: var(--muted);
+    margin: 2px 0 0;
+}
+
+.pill {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
+    background: var(--discontinued-bg);
+    color: var(--discontinued-text);
+}
+
+.pill.in-stock {
+    background: var(--in-stock-bg);
+    color: var(--in-stock-text);
+}
+
+.pill.on-order {
+    background: var(--on-order-bg);
+    color: var(--on-order-text);
+}
+
+.pill.needs-order {
+    background: var(--needs-order-bg);
+    color: var(--needs-order-text);
+}
+
+.status-note {
+    margin: 12px 0 8px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 0;
+    border-top: 1px solid var(--border);
+    font-size: 14px;
+}
+
+.row-label {
+    color: var(--muted);
+}
+
+.message {
+    color: var(--muted);
+    margin: 0;
+    padding: 12px 0;
+}

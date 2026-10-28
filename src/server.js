@@ -1,7 +1,7 @@
 // Golden Record Hub API
 //
 // Run from the project folder:  node src/server.js
-// Then open http://localhost:3000/items in a browser.
+// Then open http://localhost:3000 in a browser.
 // Stop it with Ctrl + C.
 
 const express = require("express");
@@ -20,6 +20,9 @@ app.use(express.json());
 
 // Indent JSON responses so they're readable in the browser and the terminal.
 app.set("json spaces", 2);
+
+// Serve the browser page (public/index.html) at http://localhost:3000
+app.use(express.static(path.join(__dirname, "..", "public")));
 
 // Read the file on every request, so regenerated data shows up without a restart.
 function loadItems() {
@@ -93,5 +96,5 @@ app.get("/dq/summary", (req, res) => {
 
 // "127.0.0.1" means only this computer can reach the API.
 app.listen(PORT, "127.0.0.1", () => {
-    console.log(`Golden Record Hub API running at http://localhost:${PORT}/items`);
+    console.log(`Golden Record Hub running at http://localhost:${PORT}`);
 });

@@ -1,2 +1,2 @@
-Sprint 2 done (Oct 27): GET /items, GET /items/:sku, POST /items (422 on bad data), GET /dq/summary.
-Next: Sprint 3. Browser page with SKU lookup and quality summary.
+Sprint 3 (Oct 28): browser page at localhost:3000 with SKU lookup.
+Next: add the quality panel (score, failures by rule, records to review).

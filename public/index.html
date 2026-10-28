@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Golden Record Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="page">
+        <header class="page-header">
+            <h1>Golden Record Hub</h1>
+            <p class="subtitle">Look up an item's availability by SKU.</p>
+        </header>
+
+        <section class="panel" aria-labelledby="lookup-heading">
+            <h2 id="lookup-heading" class="panel-title">Item lookup</h2>
+
+            <form id="lookup-form" novalidate>
+                <label for="sku">SKU</label>
+                <div class="search-row">
+                    <input id="sku" name="sku" type="text" inputmode="numeric" autocomplete="off" placeholder="1000025">
+                    <button type="submit">Look up</button>
+                </div>
+                <p id="sku-error" class="field-error" role="alert"></p>
+            </form>
+
+            <div class="examples">
+                <span>Try</span>
+                <button type="button" class="chip" data-sku="1000025">1000025</button>
+                <button type="button" class="chip" data-sku="1000004">1000004</button>
+                <button type="button" class="chip" data-sku="1000015">1000015</button>
+                <button type="button" class="chip" data-sku="1000011">1000011</button>
+                <button type="button" class="chip" data-sku="9999999">9999999</button>
+            </div>
+
+            <div id="result" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
