@@ -10,7 +10,7 @@
     <main class="page">
         <header class="page-header">
             <h1>Golden Record Hub</h1>
-            <p class="subtitle">Look up an item's availability by SKU.</p>
+            <p class="subtitle">Look up an item's availability, and check the health of the item data.</p>
         </header>
 
         <section class="panel" aria-labelledby="lookup-heading">
@@ -35,6 +35,17 @@
             </div>
 
             <div id="result" aria-live="polite"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="quality-heading">
+            <div class="panel-header">
+                <h2 id="quality-heading" class="panel-title">Data quality</h2>
+                <button type="button" id="refresh-quality" class="secondary">Refresh</button>
+            </div>
+
+            <div id="quality" aria-live="polite">
+                <p class="message">Loading the quality report…</p>
+            </div>
         </section>
     </main>
 
