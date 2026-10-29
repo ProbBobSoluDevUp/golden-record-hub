@@ -1,1 +1,0 @@
-console.log("Golden Record Hub is alive. Node " + process.version);

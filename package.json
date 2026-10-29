@@ -2,7 +2,7 @@
   "name": "golden-record-hub",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
+  "main": "src/server.js",
   "directories": {
     "test": "tests"
   },
