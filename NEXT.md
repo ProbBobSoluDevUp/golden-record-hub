@@ -1,2 +1,2 @@
-README done (Oct 28).
-Next: v1.0. Privacy check, tag v1.0, make the repo public, LinkedIn post.
+v1.0 (Oct 29): first public release.
+Next: see the Roadmap section in the README.

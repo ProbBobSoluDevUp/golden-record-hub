@@ -1,7 +1,7 @@
 {
   "name": "golden-record-hub",
   "version": "1.0.0",
-  "description": "",
+  "description": "A small MDM system for item data: business rules, a REST API, a data-quality score, and a SKU lookup page.",
   "main": "src/server.js",
   "directories": {
     "test": "tests"
