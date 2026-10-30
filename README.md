@@ -170,4 +170,4 @@ golden-record-hub/
 
 Node.js · Express · HTML · CSS · JavaScript · Git and GitHub
 
-Built by Mike Wells.
+Built by Mike Wells · [LinkedIn](https://www.linkedin.com/in/mikewells-fargo)
